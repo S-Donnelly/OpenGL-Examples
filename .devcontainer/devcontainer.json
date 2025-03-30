@@ -1,16 +1,7 @@
 {
-  "name": "C++ OpenGL DevContainer",
   "build": {
     // Path is relative to the devcontainer.json file.
     "dockerfile": "Dockerfile",
     "context": "."
   },
-  "hostRequirements": {
-    "cpus": 4,
-    "memory": "16gb"
-  },
-  "runArgs": [
-    "--gpus", "all"
-  ],
-  "remoteUser": "devuser",
 }
